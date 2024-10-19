@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../components/Header'
 import { Row,Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import img1 from '../images/img1.png'
@@ -7,7 +6,6 @@ import img1 from '../images/img1.png'
 function Landing() {
     return (
         <>
-            <Header />
             <div className='container-fluid d-flex justify-content-center align-items-center' style={{minHeight:"87vh"}}>
                 <div className='container  p-5'>
                     <Row>
